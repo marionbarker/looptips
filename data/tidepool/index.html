@@ -9,8 +9,13 @@
       
       
       
+        <link rel="prev" href="../nightscout/">
+      
+      
+        <link rel="next" href="../glucodyn/">
+      
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-7.3.6">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.13">
     
     
       
@@ -18,46 +23,41 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.85bb2934.min.css">
+      
+      
+
+    
+    
+    
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
-        
-      
-    
-    
-    
-      
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
-    
     
     
       <link rel="stylesheet" href="../../css/extra.css">
     
       <link rel="stylesheet" href="../../css/primary-color.css">
     
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
-
+    
     
     
   </head>
   
   
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+    <body dir="ltr">
   
     
-    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -74,20 +74,21 @@
       
     </div>
     
+    
       
 
   
 
-<header class="md-header md-header--lifted" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="LoopTips" class="md-header__button md-logo" aria-label="LoopTips" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -109,22 +110,21 @@
     
     
       <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Search">
         
-        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
         </button>
       </nav>
       
@@ -137,7 +137,7 @@
           <div class="md-search-result__meta">
             Initializing search
           </div>
-          <ol class="md-search-result__list"></ol>
+          <ol class="md-search-result__list" role="presentation"></ol>
         </div>
       </div>
     </div>
@@ -150,7 +150,7 @@
     
       
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
-  <div class="md-tabs__inner md-grid">
+  <div class="md-grid">
     <ul class="md-tabs__list">
       
         
@@ -257,7 +257,7 @@
     <a href="../.." title="LoopTips" class="md-nav__button md-logo" aria-label="LoopTips" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
     LoopTips
@@ -291,17 +291,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_2">
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
           Settings
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Settings" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           Settings
@@ -369,17 +370,18 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
       
       
       
-      
-        <label class="md-nav__link" for="__nav_3">
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
           Data Tools
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Data Tools" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Data Tools
@@ -437,7 +439,7 @@
   
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
@@ -453,7 +455,6 @@
       </a>
       
         
-
 
   
 
@@ -633,17 +634,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_4">
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
           How To
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="How To" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
           How To
@@ -838,7 +840,6 @@
                   <div class="md-sidebar__inner">
                     
 
-
   
 
 <nav class="md-nav md-nav--secondary" aria-label="Headers on this Page">
@@ -985,12 +986,14 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
-                
-                <h1 id="tidepool">Tidepool<a class="headerlink" href="#tidepool" title="Anchor link to this Header on this Page">&para;</a></h1>
+                  
+
+
+<h1 id="tidepool">Tidepool<a class="headerlink" href="#tidepool" title="Anchor link to this Header on this Page">&para;</a></h1>
 <p>{Disclosure: The original author of this page, Katie DiSimone, was employed by Tidepool when this page was initially created. She used Tidepool before becoming an employee, and continues to use Tidepool and Loop. She was not prompted to say anything in particular with regards to this information; it is written based on her own evaluation of Tidepool's services. Tidepool-specific questions should be directed to <a href="mailto:support@tidepool.org">support@tidepool.org</a>.}</p>
 <h2 id="tidepools-mission">Tidepool's mission<a class="headerlink" href="#tidepools-mission" title="Anchor link to this Header on this Page">&para;</a></h2>
 <p>In Tidepool's own words, their commitment to diabetes data and accessibility is pretty clear:</p>
@@ -1001,10 +1004,7 @@
 <p>Tidepool has <a href="https://tidepool.org/loop/">announced</a> that they are embarking on a project to build and support an FDA-regulated version of Loop, to be available in the <abbr title="operating system used by Apple Mobile devices (iPhone, iPod)">iOS</abbr> App Store, intended to work with commercially available insulin pumps and CGMs.</p>
 <h2 id="tidepool-data">Tidepool Data<a class="headerlink" href="#tidepool-data" title="Anchor link to this Header on this Page">&para;</a></h2>
 <p>Once you start uploading data into your Tidepool account, you'll see some of the benefits pretty quickly. Tidepool's data presentation is easy on the eyes. Lots of calm colors, logical data layout, quick to access important information...basically a breeze to get your needed data and get on with your analysis.</p>
-<p align="center">
-<img src="../img/tidepool_sample.png" width="750">
-</p>
-
+<p align="center"><img alt="Tidepool Sample" src="../img/tidepool_sample.png" width="750" /></p>
 <p>To use Tidepool's services, the process is pretty standard:</p>
 <ul>
 <li>Create a free Tidepool account to become the warehouse for your diabetes data.</li>
@@ -1022,6 +1022,7 @@
 </li>
 </ul>
 <div class="admonition info">
+<p class="admonition-title"> </p>
 <p>In summary, the Uploader is for uploading the numeric data from your various diabetes devices and the Mobile app is for adding the contextual information and notes-on-the-go to make your numeric data more useful.</p>
 </div>
 <h3 id="does-tidepool-uploader-work-for-loop-users">Does Tidepool Uploader work for Loop users?<a class="headerlink" href="#does-tidepool-uploader-work-for-loop-users" title="Anchor link to this Header on this Page">&para;</a></h3>
@@ -1029,10 +1030,7 @@
 <p>However, there has been a very exciting development! Tidepool's Mobile <abbr title="operating system used by Apple Mobile devices (iPhone, iPod)">iOS</abbr> app has been updated to upload Apple's HealthKit data into Tidepool. Since Loop uses HealthKit to store all of your insulin, carbohydrate, and <abbr title="continuous glucose monitor, wearable medical device that measures and reports glucose in interstitial fluid">CGM</abbr> data, this means Tidepool can now upload the full suite of available Loop information. So, there's no need to use Tidepool Uploader for Loop users...their Tidepool Mobile app can take care of the needed connections. Read below for lots of details about this important development.</p>
 <h3 id="how-can-i-share-my-tidepool-data">How can I share my Tidepool data?<a class="headerlink" href="#how-can-i-share-my-tidepool-data" title="Anchor link to this Header on this Page">&para;</a></h3>
 <p>Sharing the data is simple. You can click on your account’s Share option and enter in the email addresses for those that you want to share with. Those people will need a Tidepool account. If they don’t have one currently, they will follow easy prompts for an account setup after they’ve received your share invitation. Clinics using Tidepool will have a Tidepool account email that you can add to your account, enabling the clinic to easily view your data. You can also remove access for anyone with a simple click.</p>
-<p align="center">
-<img src="../img/share_tidepool.png" width="550">
-</p>
-
+<p align="center"><img alt="Share Tidepool" src="../img/share_tidepool.png" width="550" /></p>
 <h2 id="viewing-your-tidepool-data">Viewing your Tidepool data<a class="headerlink" href="#viewing-your-tidepool-data" title="Anchor link to this Header on this Page">&para;</a></h2>
 <p>There are two distinct viewing options for your Tidepool data, and they are not identical. You can either view your data:</p>
 <ol>
@@ -1040,32 +1038,22 @@
 <li>Using your Tidepool Mobile app <strong>AND</strong> associated notes.</li>
 </ol>
 <div class="admonition info">
+<p class="admonition-title"> </p>
 <p>Currently, only the Chrome desktop browser is compatible with Tidepool. You will not be able to use Safari or other browsers to view the data, nor will you be able to use Chrome application on a phone. If you want to see your data on a computer, you need to use the Chrome browser. If you want to see your data on your phone, you must use the Tidepool Mobile app <strong><i>and</i></strong> use an associated note to view the data surrounding the note's time frame. Mobile data viewing is not a live stream, but rather available as "bookmarked" time periods anchored by notes.</p>
 </div>
 <h3 id="what-loop-data-will-you-see-in-desktop-chrome">What Loop data will you see in desktop Chrome?<a class="headerlink" href="#what-loop-data-will-you-see-in-desktop-chrome" title="Anchor link to this Header on this Page">&para;</a></h3>
 <p>You will see your Loop's temporary basals, <abbr title="continuous glucose monitor, wearable medical device that measures and reports glucose in interstitial fluid">CGM</abbr> readings, boluses, notes, carbohydrates and various metrics about your data distribution. If you separately load your blood glucose meter or any other supported device to Tidepool, those will also overlay.</p>
-<p align="center">
-<img src="../img/loop_in_tidepool.png" width="750">
-</p>
-
-<p align="center">
-<img src="../img/loop_in_tidepool2.png" width="750">
-</p>
-
-<p align="center">
-<img src="../img/loop_in_tidepool3.png" width="750">
-</p>
-
+<p align="center"><img alt="Loop in Tidepool" src="../img/loop_in_tidepool.png" width="750" /></p>
+<p align="center"><img alt="Loop in Tidepool 2" src="../img/loop_in_tidepool2.png" width="750" /></p>
+<p align="center"><img alt="Loop in Tidepool 3" src="../img/loop_in_tidepool3.png" width="750" /></p>
 <h3 id="what-loop-data-will-you-see-in-the-tidepool-mobile-app">What Loop data will you see in the Tidepool Mobile app?<a class="headerlink" href="#what-loop-data-will-you-see-in-the-tidepool-mobile-app" title="Anchor link to this Header on this Page">&para;</a></h3>
 <div class="admonition info">
+<p class="admonition-title"> </p>
 <p>The Tidepool Mobile app is not a live-viewing app of looping data. For people coming from Nightscout, this may be a bit confusing but realize the intended purpose of the Tidepool Mobile app isn’t live-viewing. It is the place that you can (1) upload/sync HealthKit data, (2) easily add/edit/delete notes to the data set, and (3) search for notes and view Loop data surrounding that note.</p>
 </div>
 <p><strong>In fact, you will basically see NO data in the Tidepool Mobile app unless you have Tidepool data uploaded <u>and</u> notes are added.</strong> Once you add a note, you are basically placing a bookmark on the data set. You will be able to click on the note and see 7 hours of old data before the note, and then the note will continue to collect 7 hours of data to display after the note. So, technically, you’ll be able to refresh the app’s view to see current data for approximately 7 hours after a note is placed.</p>
 <p>For example, here’s a sample note+data set below from my Tidepool Mobile app.  Over the last couple hours, my daughter noticed that she was staying above target (unusual for her on Loop with the meal she had) for quite a while. She had given a couple small corrections (see the two 1 unit correction boluses?) without result. She started her secondary troubleshooting…if it’s not the food, maybe it’s the infusion site? She realized it has been 4.5 days since changing her site. She changed the site, and logged a note using the Tidepool Mobile app. That note shows on my phone's Tidepool Mobile app, shows up on her Tidepool data for her endo to see too, and we can refresh the view to see how blood glucose trends for the next 7 hours after the site change.</p>
-<p align="center">
-<img src="../img/ios_tidepool_example.png" width="250">
-</p>
-
+<p align="center"><img alt="iOS Tidepool Example" src="../img/ios_tidepool_example.png" width="250" /></p>
 <h2 id="tidepools-mobile-app-for-iosiphone">Tidepool's Mobile app for <abbr title="operating system used by Apple Mobile devices (iPhone, iPod)">iOS</abbr>/iPhone<a class="headerlink" href="#tidepools-mobile-app-for-iosiphone" title="Anchor link to this Header on this Page">&para;</a></h2>
 <p>As part of Tidepool Loop development, Tidepool updated its Tidepool Mobile <abbr title="operating system used by Apple Mobile devices (iPhone, iPod)">iOS</abbr> app to integrate with Loop user's data stored in Apple's HealthKit database. This update also supports the <a href="jaeb.org/loopstudy">Jaeb Center observational study</a> of Loop.</p>
 <h3 id="how-does-the-loop-data-upload-work">How does the Loop data upload work?<a class="headerlink" href="#how-does-the-loop-data-upload-work" title="Anchor link to this Header on this Page">&para;</a></h3>
@@ -1077,83 +1065,44 @@
 <h3 id="what-cool-thing-can-you-use-this-tidepool-mobile-app-for">What cool thing can you use this Tidepool Mobile app for?<a class="headerlink" href="#what-cool-thing-can-you-use-this-tidepool-mobile-app-for" title="Anchor link to this Header on this Page">&para;</a></h3>
 <p>You mean what OTHER cool thing can Tidepool Mobile app do <em>besides uploading Loop data automatically</em>? The Tidepool Mobile app also provides an easy searchable log of meal boluses. If you are still learning new meals in Loop…how much to bolus, how long of a carb absorption…these notes are searchable and super easy to add. Learning how to bolus for that Tofu Breakfast Burrito? Simply record a note of how you bolused for it. If you want to, come back afterwards and leave yourself some suggestions for the next time to try. This searchable information can also help for teens learning and exercising independent skills. If they aren’t sure of how to bolus for a meal, this could give them easy tips from past success without necessarily having to stop and ask a parent. As much as a parent might scoff at the idea of a kid looking up a meal, if the alternative is asking a parent…that might be all the motivation it takes. How about co-parenting? Want to leave a note that another parent or caregiver can look up? <em>"How were the last Chicken McNuggets bolused?"</em> or <em>"When was the last site change?"</em> can easily be tracked and retrieved with notes.</p>
 <p>For an easy example, search for the word burrito (doesn’t have to be a hashtag) and any notes with the word “burrito” will be available for review, as well as any added comments.</p>
-<p align="center">
-<img src="../img/ios_tidepool_example2.png" width="450">
-</p>
-
+<p align="center"><img alt="iOS Tidepool Example 2" src="../img/ios_tidepool_example2.png" width="450" /></p>
 <p>Hormones can also be easily tracked with notes. <em>What day-of-the-month and how did I change the basals?</em> Looking to find patterns in those female hormones? This could be a really slick tracking tool to easily log periods of insulin resistance and what part of the cycle they are occurring at.</p>
 <h3 id="is-the-tidepool-mobile-app-only-for-loop-users">Is the Tidepool Mobile app only for Loop users?<a class="headerlink" href="#is-the-tidepool-mobile-app-only-for-loop-users" title="Anchor link to this Header on this Page">&para;</a></h3>
 <p>The Tidepool Mobile app uploads diabetes-related HealthKit data regardless of the source. Loop users store their data in HealthKit, so this is a nice fit. Other diabetes devices (e.g., OneDrop BG meter) and apps (e.g., Spike and Dexcom) also store their data in HealthKit. Some people even manually enter their diabetes data into HealthKit. For all those uses, the Tidepool Mobile app will upload the HealthKit data. OpenAPS does not store its data in HealthKit, so this will not upload OpenAPS-related data. However, if OpenAPS users are using Spike app, some integration of information through Nightscout is possible. Currently, OpenAPS SMBs, boluses, and carbohyrdates can be uploaded to HealthKit for OpenAPS+Spike+Nightscout+iPhone users.  Spike does plan to add temporary basal integration to HealthKit at some time in the future.</p>
 <h3 id="how-can-you-get-the-tidepool-mobile-app">How can you get the Tidepool Mobile app?<a class="headerlink" href="#how-can-you-get-the-tidepool-mobile-app" title="Anchor link to this Header on this Page">&para;</a></h3>
 <p>Tidepool Mobile is available in the <a href="https://apps.apple.com/us/app/tidepool-mobile/id1026395200"><abbr title="operating system used by Apple Mobile devices (iPhone, iPod)">iOS</abbr> App Store</a> on your Loop device.</p>
-                
-              
-              
-                
 
 
-              
-            </article>
-          </div>
+
+
+
+                
+              </article>
+            </div>
+          
+          
         </div>
         
-          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
             Back to top
-          </a>
+          </button>
         
       </main>
       
-        
-<footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../nightscout/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Nightscout" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Nightscout
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../glucodyn/" class="md-footer__link md-footer__link--next" aria-label="Next: Perceptus" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Perceptus
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
+        <footer class="md-footer">
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        
-          Made with
-          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-            Material for MkDocs
-          </a>
-        
-        
-      </div>
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
       
     </div>
   </div>
@@ -1163,12 +1112,11 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate", "content.tooltips"], "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate", "content.tooltips"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
-      
-        <script src="../../javascripts/mathjax.js"></script>
+      <script src="../../assets/javascripts/bundle.b4d07000.min.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
